@@ -1,5 +1,5 @@
 const foods = ['pizza', ' burger', ' fingerChips', ' donuts', ' springRoll'];
-document.write("Original array is: " + foods + "<br<br>");
+document.write("Original array is: " + foods + "<br><br>");
 document.write("Array after slice " + foods.slice(1, 4) + "<br><br>");
 foods.splice(2, 0, ' noodles', ' icecream')
 document.write("Array after splice: " + foods + "<br><br>");
